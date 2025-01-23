@@ -4,7 +4,8 @@
 
 ## Featured Project: BackOverflow - A Student Forum
 
-<img src="assets\backoverflow.webp" alt="BackOverFlow Logo" width="200"/> <img src="assets\backoverflow.webp" alt="BackOverFlow Logo" width="200"/>
+<img src="assets\backoverflow.webp" alt="BackOverFlow Logo" width="200"/> <img src="assets\backoverflow.webp" alt="BackOverFlow Logo" width="200"/> <img src="assets\backoverflow.webp" alt="BackOverFlow Logo" width="200"/>
+
 
 
 ### What is BackOverflow?
