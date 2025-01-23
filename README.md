@@ -38,7 +38,7 @@ Follow the steps below to deploy BackOverflow on your local machine or server:
 ### Visual Preview
 
 ### Screenshot 1
-![Homepage Screenshot](https://github.com/Buuya/BackOverFlow/blob/main/assets/homepage.png"Homepage")
+![Homepage Screenshot](assets/homepage.png"Homepage")
 
 ### Screenshot 2
 ![Forum Page Screenshot](https://github.com/Buuya/BackOverFlow/blob/main/assets/question.png "Forum Page")
