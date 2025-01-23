@@ -2,6 +2,9 @@
 
 <h4 align="center">Welcome to BackOverflow - A modern forum built for a student, by a student. Empowering discussions, solving problems, and building a community. 🎓</h4>
 
+## Featured Project: BackOverflow - A Student Forum
+
+<img src="assets\backoverflow.webp" alt="BackOverFlow Logo" width="200"/>
 
 ### What is BackOverflow?
 
@@ -33,13 +36,13 @@ Follow the steps below to deploy BackOverflow on your local machine or server:
 ### Visual Preview
 
 ### Screenshot 1
-![Homepage Screenshot](https://github.com/BXDevTech/BackOverflow/blob/main/Assets/homepage.png "Homepage")
+![Homepage Screenshot](https://github.com/Buuya/BackOverFlow/blob/main/assets/homepage.png"Homepage")
 
 ### Screenshot 2
-![Forum Page Screenshot](https://github.com/BXDevTech/BackOverflow/blob/main/Assets/forum_page.png "Forum Page")
+![Forum Page Screenshot](https://github.com/Buuya/BackOverFlow/blob/main/assets/question.png "Forum Page")
 
 ### Screenshot 3
-![Profile Page Screenshot](https://github.com/BXDevTech/BackOverflow/blob/main/Assets/profile_page.png "Profile Page")
+![Post Page Screenshot](https://github.com/Buuya/BackOverFlow/blob/main/assets/Ask.png "Post Page")
 
 ### Features
 
@@ -80,16 +83,27 @@ Want to contribute or deploy BackOverflow? Here’s how:
    ```
 5. **Open a pull request**.
 
-### Contribution Guidelines
+Need help or have questions? Reach out to us at [bxdevtech@gmail.com] - we're here for you!
 
-I  ❤️ contributions from the community! Help me improve BackOverflow by submitting bug reports, suggestions, and code improvements.
+## 🚀 Contribution Guidelines
 
-### Code of Conduct
+We ❤️ contributions from the community! Whether you're a coding wizard or just starting, your input is valuable. Here's how you can get involved:
 
-Please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
+- **Fork the repository**
+- **Create a new branch**: `git checkout -b feature/your-feature`
+- **Make your changes and commit**: `git commit -m 'Add your feature'`
+- **Push to the branch**: `git push origin feature/your-feature`
+- **Open a pull request**
 
-### License
+Let's build something amazing together!
 
-This project is under the BXDev Technology Proprietary License. Review the [License](LICENSE) for more details.
+## Code of Conduct: BXDev Technology Code of Conduct
 
-🌟 Thank you for being part of BackOverflow. Together, let's build a better platform for students worldwide! 🌟
+Before you dive in, please review and adhere to our [Code of Conduct](CODE_OF_CONDUCT.md). We're all about creating a positive and inclusive community.
+
+## License: BXDev Technology Proprietary License
+
+Please review our [License](LICENSE) to understand how you can use and contribute to our projects.
+
+🌟 Thank you for choosing BXDev Technology! Let's innovate, create, and build the future together. 🌟
+
