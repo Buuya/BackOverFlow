@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask a Question</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ForumName</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="/html/questions.html">Questions</a></li>
+                <li><a href="/html/ask.html">Ask Question</a></li>
+                <li><a href="/html/tags.html">Tags</a></li>
+                <li><a href="/html/users.html">Users</a></li>
+                <li class="dropdown">
+                    <a href="#">Account</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/html/login.html">Login</a></li>
+                        <li><a href="/html/registration.html">Register</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="ask-question-container">
+            <h2>Ask a Question</h2>
+            <form action="/php/ask_question.php" method="POST">
+                <div class="form-group">
+                    <label for="title">Question Title</label>
+                    <input type="text" id="title" name="title" placeholder="Enter the title of your question" required>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <textarea id="description" name="description" placeholder="Describe your question..." rows="10" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="tags">Tags</label>
+                    <input type="text" id="tags" name="tags" placeholder="Add relevant tags (e.g. html, css)" required>
+                </div>
+                <div class="form-group">
+                    <label for="author">Author (optional)</label>
+                    <input type="text" id="author" name="author" placeholder="Enter your name (leave empty for Anonymous)">
+                </div>
+                <div class="form-actions">
+                    <button type="submit">Submit Question</button>
+                </div>
+            </form>            
+        </div>
+    </main>
+</body>
+</html>

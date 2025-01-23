@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">ForumName</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon">&#9776;</label>
+            <ul class="nav-links">
+                <li><a href="/html/index.html">Home</a></li>
+                <li><a href="/html/questions.html">Questions</a></li>
+                <li><a href="/html/ask.html">Ask Question</a></li>
+                <li><a href="/html/tags.html">Tags</a></li>
+                <li><a href="/html/users.html">Users</a></li>
+                <li class="dropdown">
+                    <a href="#">Account</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/html/login.html">Login</a></li>
+                        <li><a href="/html/registration.html">Register</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="form-container">
+        <h2>Create an Account</h2>
+        <form action="/php/register.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Register</button>
+        </form>
+        
+        
+        <p>Already have an account? <a href="/html/login.html">Login here</a></p>
+    </div>
+</body>
+</html>

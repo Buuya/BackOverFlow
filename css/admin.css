@@ -1,0 +1,61 @@
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f7fa;
+        }
+        .card {
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+        }
+        .card-body {
+            padding: 2rem;
+        }
+        .card-header {
+            background: linear-gradient(90deg, #86C5D8, #00c6ff);
+            color: white;
+            padding: 1rem;
+            border-radius: 12px 12px 0 0;
+        }
+        .card-icon {
+            font-size: 3rem;
+            color: white;
+        }
+        .content {
+            margin-left: 250px; /* Adjust this if sidebar is wider */
+        }
+        .sidebar {
+            background-color: #86C5D8; /* Vibrant Blue */
+            width: 250px;
+            height: 100vh;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding-top: 50px;
+        }
+        .sidebar a {
+            color: white;
+            padding: 12px;
+            text-decoration: none;
+            display: block;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
+        }
+        .sidebar a:hover {
+            background-color: #4bc6ff; /* Darker Blue */
+        }
+        .container-fluid {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .charts-container {
+            margin-top: 30px;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
